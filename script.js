@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function(event){
+  
+
+
 /*change facebook icon */
 
 document.getElementById("facebook").addEventListener('mouseover', ()=> {document.getElementById("facebook").src="./images/icon-facebook-white.svg"});
@@ -41,3 +45,19 @@ function hideMenu(){
 
 document.getElementById('hamburger').addEventListener('mouseleave', hideMenu);
 document.getElementById('hambuger-menu').addEventListener("mouseleave", hideMenu);
+
+
+/*Alert about blank items*/
+
+
+function clickFunction(){
+    alert("Hola! Since this is only a fictional company, nothing is expected to happen when you click on the icons or the menu items.Thank you for trying it!");
+}
+
+for( let x = 0; x < document.querySelectorAll('.common').length; x++ ){
+    
+document.querySelectorAll('.common')[x].addEventListener('click', clickFunction);
+
+} 
+
+});

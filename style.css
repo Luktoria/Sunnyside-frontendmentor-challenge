@@ -208,6 +208,7 @@ width: 100%;
     max-height: 750px;
     margin-bottom: 0; 
     background-image: url(./images/desktop/image-stand-out.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
     height: 100%;
 }
@@ -515,6 +516,7 @@ footer {
         margin-bottom: 0; 
         background-image: url(./images/mobile/image-stand-out.jpg);
         background-repeat: no-repeat;
+        background-position: center center;
         height: 400px;
         background-size: cover; 
     }
@@ -561,13 +563,15 @@ footer {
 }
 
     .flex5 {
-        background-image: url("./images/mobile/image-graphic-design.jpg") no-repeat center center fixed;
+        background-image: url("./images/mobile/image-graphic-design.jpg") no-repeat;
+        background-position: center center;
         background-size: cover;
         height: 100%;
     }
 
     .flex6 {
-        background-image: url("./images/mobile/image-photography.jpg") no-repeat center center;
+        background-image: url("./images/mobile/image-photography.jpg") no-repeat;
+        background-position: center center;
         background-size: cover;
         height: 100%;
     }
