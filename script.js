@@ -47,7 +47,7 @@ document.getElementById('hamburger').addEventListener('mouseleave', hideMenu);
 document.getElementById('hambuger-menu').addEventListener("mouseleave", hideMenu);
 
 
-/*Alert about blank items*/
+/*Alert about blank items on web*/
 
 
 function clickFunction(){
@@ -58,4 +58,21 @@ for( let x = 0; x < document.querySelectorAll('.common').length; x++ ){
 document.querySelectorAll('.common')[x].addEventListener('click', clickFunction);
 } 
 
+
+
+
+/*Alert about blank items on mobile */
+
+function touchFunction(){
+    alert("Hola! Since this is only a fictional company, nothing is expected to happen when you click on the icons or the menu items.Thank you for trying it!");
+}
+
+for( let x = 0; x < document.querySelectorAll('.common-mobile').length; x++ ){
+    document.querySelectorAll('.common-mobile')[x].addEventListener('ontouchstart', clickFunction);
+    } 
+
 });
+
+
+
+
