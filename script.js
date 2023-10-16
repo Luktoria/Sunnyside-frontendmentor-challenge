@@ -35,7 +35,7 @@ function makeMenu(){
     };
     
 
-document.getElementById('hamburger').addEventListener('mouseenter', makeMenu);
+document.getElementById('hamburger').addEventListener('ontouchstart', makeMenu);
 document.getElementById('hambuger-menu').addEventListener("mouseenter", makeMenu);
 
 function hideMenu(){
@@ -55,9 +55,7 @@ function clickFunction(){
 }
 
 for( let x = 0; x < document.querySelectorAll('.common').length; x++ ){
-    
 document.querySelectorAll('.common')[x].addEventListener('click', clickFunction);
-
 } 
 
 });
