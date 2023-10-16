@@ -35,7 +35,7 @@ function makeMenu(){
     };
     
 
-document.getElementById('hamburger').addEventListener('ontouchstart', makeMenu);
+document.getElementById('hamburger').addEventListener('click', makeMenu);
 document.getElementById('hambuger-menu').addEventListener("mouseenter", makeMenu);
 
 function hideMenu(){
